@@ -15,6 +15,7 @@ module.exports = {
         .addField('`ma!mangainfo/mi/minfo <Nombre del manga>`','Te dice los detalles de un manga.', false)
         .addField('`ma!embed/e/em <Lo que quieras>`',' Lo que escribes se covierte en un embed.', false)
         .addField('`ma!embedanonimo/ea/ema <Lo que quieras>`',' Lo que escribes se covierte en un embed pero anónimo.', false)
+        .addField('`ma!richembed/re`',' Crea un embed sin necesidad de webhook.', false)
         return message.channel.send(embed)
 
     
